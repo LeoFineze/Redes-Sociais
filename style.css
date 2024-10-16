@@ -33,4 +33,15 @@ nav {
   font-weight:400;
 }
 
- nav a 
+ nav a:hover {
+   text-decoration: underline;
+   transform: scale(0,90);
+   transition: transform 0.1s;
+ }
+
+nav a {
+  text-decoration: none;
+  color: var(--bg-color);
+  margin: 0 2rem 1 rem 0rem;
+  font-size: 1.2rem;
+}
